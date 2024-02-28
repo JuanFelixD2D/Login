@@ -1,5 +1,5 @@
 <?php
-    require_once("/login/view/head/head.php");
+    require_once("view/head/head.php");
     
 ?>
 
