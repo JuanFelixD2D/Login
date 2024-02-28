@@ -1,5 +1,5 @@
 <?php
-    require_once("login/view/head/head.php");
+    require_once("view/head/head.php");
     if(!empty($_SESSION['usuario'])){
         header("Location:panel_control.php");
     }
