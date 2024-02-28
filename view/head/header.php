@@ -40,7 +40,7 @@
                             <a class="nav-link" href="#">Session de recursos</a>
                         </li>
                     </ul>
-                    <a href="/login/view/home/logout.php" class="boton">Cerrar Sesion</a>
+                    <a href="view/home/logout.php" class="boton">Cerrar Sesion</a>
                 </div>
                 <?php endif ?>
 
