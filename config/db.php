@@ -1,9 +1,9 @@
 <?php
     class db{
-        private $host="localhost";
-        private $dbname="login";
-        private $user="root";
-        private $password="";
+        private $host="databasehost";
+        private $dbname="databasename";
+        private $user="databaseuser";
+        private $password="databasepassword";
         public function conexion(){
             try {
                 $PDO = new PDO("mysql:host=".$this->host.";dbname=".$this->dbname,$this->user,$this->password);
