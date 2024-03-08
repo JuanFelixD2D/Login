@@ -1,5 +1,5 @@
 <?php
-    require_once("controller/homeController.php");
+    require_once("../../controller/homeController.php");
     $obj = new homeController();
     $correo = $_POST['correo'];
     $contraseña = $_POST['contraseña'];
