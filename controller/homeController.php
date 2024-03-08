@@ -3,7 +3,7 @@
         private $MODEL;
         public function __construct()
         {
-            require_once("/model/homeModel.php");
+            require_once("model/homeModel.php");
             $this->MODEL = new homeModel();
         }
         public function guardarUsuario($correo,$contraseña){
