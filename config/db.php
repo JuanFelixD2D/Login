@@ -1,9 +1,9 @@
 <?php
     class db{
-        private $host="localhost";
-        private $dbname="databasename";
-        private $user="databaseuser";
-        private $password="databasepassword";
+        private $host="mariadb:3306";
+        private $dbname="login";
+        private $user="d2d";
+        private $password="d2d";
         public function conexion(){
             try {
                 $PDO = new PDO("mysql:host=".$this->host.";dbname=".$this->dbname,$this->user,$this->password);
