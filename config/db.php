@@ -1,6 +1,6 @@
 <?php
     class db{
-        private $host="mariadb";
+        private $host="localhost";
         private $dbname="databasename";
         private $user="databaseuser";
         private $password="databasepassword";
